@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Sansung S20+",
       "price": 5099.99
+    },
+    {
+      "name": "Teste",
+      "price": "9.8",
+      "id": 4
     }
   ]
 }
