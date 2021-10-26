@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
       "id": 3,
       "name": "Sansung S21+",
       "price": "7099.99"
@@ -14,6 +9,16 @@
       "name": "Lápis Preto",
       "price": "2.00",
       "id": 5
+    },
+    {
+      "name": "Lápis Preto",
+      "price": "1",
+      "id": 6
+    },
+    {
+      "name": "Caneta BIC Pr",
+      "price": "3",
+      "id": 7
     }
   ]
 }
