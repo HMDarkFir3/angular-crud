@@ -8,9 +8,10 @@ import { ProductService } from "../product.service";
   styleUrls: ["./product-read.component.css"],
 })
 export class ProductReadComponent implements OnInit {
-  constructor(private productService: ProductService) {}
-
   products: Product[] = [];
+  displayedColumns = ["id", "name", "price", "action"];
+
+  constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
     this.productService.readProduct().subscribe((products) => {
